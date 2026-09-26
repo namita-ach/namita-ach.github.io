@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namita Achyuthan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="top" class="header">
+    <div class="header-left">
+      <h1 class="header-name">Namita Achyuthan</h1>
+      <p class="header-tagline">somewhere between brains, books, and bytes</p>
+      <p class="header-bio">
+        Neuro, math, and ML geek. I love learning, and once I'm done, I love <a href="https://namitalearns.substack.com" target="_blank" rel="noopener">explaining</a>.
+        Currently building AI infrastructure at Couchbase.
+      </p>
+      <div class="header-icons">
+        <a href="https://www.linkedin.com/in/namita-achyuthan" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=YOUR-ID" target="_blank" rel="noopener" class="social-link" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
+        </a>
+        <a href="https://github.com/namita-ach" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+        </a>
+        <a href="https://namitalearns.substack.com" target="_blank" rel="noopener" class="social-link" aria-label="Substack">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <a href="https://calendar.app.google/8GkF9soKmDgjsiFy6" target="_blank" rel="noopener" class="social-link" aria-label="Schedule a meeting">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- TABBED WORK SECTION -->
+  <section id="work" class="work">
+    <div class="tabs" role="tablist">
+      <button class="tab active" role="tab" aria-selected="true" data-tab="research">Research</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="publications">Publications</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="experience">Experience</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="projects">Projects</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="blog">Blog</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="notes">Notes</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="skills">Skills</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="beyond">Beyond Work</button>
+    </div>
+
+    <!-- RESEARCH TAB -->
+    <div class="tab-panel active" id="panel-research" role="tabpanel">
+      <div class="research-content">
+        <div class="research-area">
+          <h3 class="research-heading">Neuromorphic & Biologically-Inspired AI</h3>
+          <p>What if the best AI architecture already exists, inside your skull? The brain is the best piece of
+          engineering that exists. Biology solved problems billions of years before we wrote our first line of code,
+          and I think applying those principles to today's compute has all the answers. I work on neuro-symbolic
+          approaches, predictive processing, and spiking neural networks because the gap between how brains compute
+          and how GPUs compute is where the interesting stuff lives.</p>
+        </div>
+        <div class="research-area">
+          <h3 class="research-heading">LLM Evaluation & Reliability</h3>
+          <p>How do you trust a system that grades itself? I study the failure modes that emerge when LLMs judge
+          other LLMs, particularly the unintuitive ways retrieval volume distorts evaluation. Turns out, giving a
+          judge more evidence can make it worse, not better.</p>
+        </div>
+        <div class="research-area">
+          <h3 class="research-heading">Quantization & Efficient Representations</h3>
+          <p>There's something deeply satisfying about squeezing big information into small representations without
+          losing what matters. Binary quantization, locality-sensitive hashing, making models run on hardware that
+          has no business running them. How small can you go before things break?</p>
+        </div>
+        <div class="research-area">
+          <h3 class="research-heading">Natural Language Understanding</h3>
+          <p>When a model reads "the trophy doesn't fit in the suitcase because it's too big," does it know
+          what "it" refers to? Language models process text. That's not the same as understanding it. I'm interested
+          in the gap: how commonsense reasoning, sentic computing, and structured knowledge can ground language in
+          meaning beyond statistical pattern matching.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS TAB -->
+    <div class="tab-panel" id="panel-publications" role="tabpanel">
+      <ul class="pub-list">
+        <li class="pub-item">
+          <span class="pub-title">Hierarchical Predictive Processing for Uncertainty-Aware Multimodal Transformers</span>
+          <span class="pub-meta"><a href="https://proceedings.mlr.press/v308/achyuthan26a.html" target="_blank" rel="noopener">41st Association for the Advancement of Artificial Intelligence</a> · NeuroAI Workshop Spotlight</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">The Brain Watching Itself: Identifying Brain Tumors with Spiking Neural Networks</span>
+          <span class="pub-meta"><a href="https://ieeexplore.ieee.org/abstract/document/11177132" target="_blank" rel="noopener">22nd IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology</a></span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">The Convergence Crisis: How Neuromarketing, Algorithmic Systems, and Generative AI Threaten Cognitive Autonomy in the Digital Age</span>
+          <span class="pub-meta"><a href="https://neuroethicssociety.org/meeting/neuroethics-2026/presentations-2026/" target="_blank" rel="noopener">International Neuroethics Society</a> · Neuroethics 2026</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">BQ-LSH: Binary Quantization Outperforms Deep Learning for Network Anomaly Detection</span>
+          <span class="pub-meta"><a href="https://ieeexplore.ieee.org/document/11689042" target="_blank" rel="noopener">11th IEEE International Conference on Machine Learning Technologies</a></span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Breaking the Noise Barrier: KAN-Powered Physics-Informed Neural Networks for Real-World PDEs</span>
+          <span class="pub-meta">18th International Conference on Machine Learning and Computing</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Breaking the Decoder Barrier: ICU for Encoder-Decoder Architectures</span>
+          <span class="pub-meta">12th International Conference on Computing and Artificial Intelligence</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Contrasting to Forget: Adapting Iterative Unlearning Techniques for Responsible Removal in BERT</span>
+          <span class="pub-meta">11th International Conference on Innovation in Artificial Intelligence</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Fourier vs. Attention: A Re-look at Protein Sequence Generation Models <span class="pub-badge">mentored</span></span>
+          <span class="pub-meta"><a href="https://link.springer.com/chapter/10.1007/978-3-032-26028-4_2" target="_blank" rel="noopener">18th International Conference on Bioinformatics and Computational Biology</a></span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Dynamic Spatio-Temporal Graph Neural Networks for Patient-Specific Seizure Forecasting <span class="pub-badge">mentored</span></span>
+          <span class="pub-meta">12th International Conference on Computing and Artificial Intelligence</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Trust Issues: A Dual-Component Trust Metric for Multi-Agent LLMs <span class="pub-badge">mentored</span></span>
+          <span class="pub-meta"><a href="https://ieeexplore.ieee.org/document/11688899/" target="_blank" rel="noopener">11th IEEE International Conference on Machine Learning Technologies</a></span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">Learning to Smell With Less: Interpretable Spiking Meta-Learning for Olfactory Data <span class="pub-badge">mentored</span></span>
+          <span class="pub-meta">16th International Workshop on Computer Science and Engineering</span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-title">TRIAD: Framework for Interpretable Alzheimer's Progression Prediction Using Tensor Factorisation and Deep Sequence Modeling <span class="pub-badge">mentored</span></span>
+          <span class="pub-meta">23rd IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- EXPERIENCE TAB -->
+    <div class="tab-panel" id="panel-experience" role="tabpanel">
+      <div class="experience-section">
+        <h3 class="subsection-title">professional</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jan 2026 - Present</span>
+              <h4 class="timeline-role">Software Development Engineer, AI R&D</h4>
+              <span class="timeline-org">Couchbase</span>
+              <p class="timeline-desc">Research on bias in LLM-as-judge evaluation frameworks and retrieval techniques for memory search. Designing APIs and building features for an agent memory system, architecting for scale, reliability, and low-latency retrieval in production.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jun 2025 - Dec 2025</span>
+              <h4 class="timeline-role">Software Development Intern, AI R&D</h4>
+              <span class="timeline-org">Couchbase</span>
+              <p class="timeline-desc">Designed and benchmarked hybrid and full-text search retrieval architectures for agent memory. Ran systematic competitive analysis against industry systems to surface performance gaps and inform retrieval strategy. Tuned retrieval methods through rigorous quality benchmarking.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jan 2025 - Jun 2025</span>
+              <h4 class="timeline-role">Career Preview Program Intern</h4>
+              <span class="timeline-org">Hewlett Packard Enterprise</span>
+              <p class="timeline-desc">Proved vector databases are fundamentally unsuitable for edge deployment through systematic benchmarking. Engineered binary quantization on Open vSwitch achieving 93.8% memory reduction and 2.7x speedup while maintaining 87.2% recall at 165+ flows/s on edge hardware.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jun 2024 - Aug 2024</span>
+              <h4 class="timeline-role">Computer Vision Intern</h4>
+              <span class="timeline-org">Aicumen Corporation</span>
+              <p class="timeline-desc">Developed novel optical attention mechanism without transformers, achieving >50% reduction in computation time. Integrated ONNX and Triton Inference Server into production deployment pipeline.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2024 - Jan 2026</span>
+              <h4 class="timeline-role">Teaching Assistant, MCSE &amp; AFML</h4>
+              <span class="timeline-org">PES University</span>
+              <p class="timeline-desc">Created technical content on advanced ML algorithms and mathematical foundations, published at namitalearns.substack.com. Mentored 8 student teams (30+ individuals), yielding 5 paper acceptances.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-section">
+        <h3 class="subsection-title">education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Aug 2022 - Jul 2026</span>
+              <h4 class="timeline-role">B.Tech in Computer Science and Engineering (AIML)</h4>
+              <span class="timeline-org">PES University, Bangalore</span>
+              <p class="timeline-desc">GPA: 9.13/10.00. Best Outgoing Student. CNR Scholarship recipient (6 of 7 semesters, awarded to top 25%). Coursework: Big Data, Math for ML, Algorithms &amp; Optimizations in ML, Advanced Data Analytics, Social Computing, Deep Learning with Graphs, Search &amp; Info Retrieval.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-section">
+        <h3 class="subsection-title">volunteering & reviewing</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 - Present</span>
+              <h4 class="timeline-role">Neuroethics in Marketing and Analytics Volunteer</h4>
+              <span class="timeline-org">IEEE Brain: Neuroethics Framework Committee</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 - Present</span>
+              <h4 class="timeline-role">Reviewer</h4>
+              <span class="timeline-org">NeurIPS Workshops & IEEE Conferences</span>
+              <p class="timeline-desc">NeurIPS Workshop on LLM-as-a-Judge (2026) · NeurIPS Workshop on Foundation Models for Brain &amp; Body (2026) · IEEE CIBCB 2025 &amp; 2026 · IEEE ANTS 2025</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024</span>
+              <h4 class="timeline-role">Women in Data Science Ambassador</h4>
+              <span class="timeline-org">Stanford's Women in Data Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-section">
+        <h3 class="subsection-title">certifications</h3>
+        <div class="cert-list">
+          <div class="cert-item"><span class="cert-name">Generative AI, Cohort 4.0</span><span class="cert-org">Microsoft Azure Developer Community</span></div>
+          <div class="cert-item"><span class="cert-name">Computational Neuroscience</span><span class="cert-org">IIT Kharagpur</span></div>
+          <div class="cert-item"><span class="cert-name">Ethics in Engineering</span><span class="cert-org">IIT Kharagpur</span></div>
+          <div class="cert-item"><span class="cert-name">Vital Signs: Understanding What the Body is Telling Us</span><span class="cert-org">University of Pennsylvania</span></div>
+          <div class="cert-item"><span class="cert-name">Quantum Computing Software</span><span class="cert-org">Womanium</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS TAB -->
+    <div class="tab-panel" id="panel-projects" role="tabpanel">
+      <div class="project-grid">
+        <div class="project-card">
+          <h3 class="project-name">Hierarchical Predictive Processing for Multimodal Transformers</h3>
+          <p class="project-desc">Applied the Free Energy Principle to multimodal transformers, achieving 51.7% better calibration than Monte Carlo Dropout baselines and 48.6% improvement in uncertainty calibration on VQA v2.</p>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Free Energy Principle</span>
+            <span class="tag">VQA</span>
+            <span class="tag">Bayesian</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">The Judge Never Abstains: Scoring "I Don't Know" in Agent Memory</h3>
+          <p class="project-desc">Four of five LLM judges cross into inversion as retrieval deepens, accepting more confident fabrications than valid refusals. Discriminability falls monotonically from d' = +5.59 to chance at 20.5k tokens, then past chance to d' = -2.12. Two systems returning byte-identical answers, differing only in retriever verbosity, separate by 20.6 points and swap rank.</p>
+          <div class="project-tags">
+            <span class="tag">Signal Detection Theory</span>
+            <span class="tag">LLM-as-Judge</span>
+            <span class="tag">Agent Memory</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">The Brain Watching Itself: Brain Tumor Detection with SNNs</h3>
+          <p class="project-desc">Convolutional spiking neural network achieving 73% memory reduction and 13x faster inference versus traditional CNNs while maintaining comparable accuracy. Demonstrated temporal encoding superiority over rate encoding.</p>
+          <div class="project-tags">
+            <span class="tag">SNNTorch</span>
+            <span class="tag">Neuromorphic</span>
+            <span class="tag">Medical Imaging</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">BQ-LSH: Binary Quantized IP Flow Embeddings for Edge Deployment</h3>
+          <p class="project-desc">Proved vector databases are unsuitable for edge deployment. Engineered binary quantization on Open vSwitch achieving 93.8% memory reduction, 2.7x speedup, and 87.2% recall at 165+ flows/s on edge hardware.</p>
+          <div class="project-tags">
+            <span class="tag">Open vSwitch</span>
+            <span class="tag">LSH</span>
+            <span class="tag">Binary Quantization</span>
+            <span class="tag">Edge</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">Brain Hyperactivity Region Identification with Hypergraph Transformers</h3>
+          <p class="project-desc">Hypergraph transformer architecture to model complex brain connectivity patterns and identify regions of hyperactivity from neuroimaging data. Leveraged hypergraph structures to capture higher-order relationships between brain regions.</p>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Hypergraph Neural Networks</span>
+            <span class="tag">Neuroimaging</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">KAN-Powered Physics-Informed Neural Networks</h3>
+          <p class="project-desc">Combined PINNs for noisy PDE solving with Kolmogorov-Arnold Networks for noise removal. Achieved 99.9% MSE reduction (2793.00 to 0.4748) on noisy scientific data for complex mathematical systems.</p>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">PINNs</span>
+            <span class="tag">KANs</span>
+            <span class="tag">HDF5</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">ICU for Encoder-Decoder Architectures</h3>
+          <p class="project-desc">Adapted Iterative Contrastive Unlearning to encoder-decoder transformers, cutting forget-set memorization from 99.05% to 1.83% while preserving 98.47% retain-set accuracy on BART. Loss-based stopping criterion 5 orders of magnitude cheaper than generation-based metrics.</p>
+          <div class="project-tags">
+            <span class="tag">BART</span>
+            <span class="tag">PEGASUS</span>
+            <span class="tag">T5</span>
+            <span class="tag">Contrastive Learning</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3 class="project-name">Contrasting to Forget: ICU for Encoder Architectures</h3>
+          <p class="project-desc">Adapted Iterative Contrastive Unlearning techniques for responsible knowledge removal in BERT, enabling targeted forgetting while preserving model utility on retained data.</p>
+          <div class="project-tags">
+            <span class="tag">BERT</span>
+            <span class="tag">Machine Unlearning</span>
+            <span class="tag">PyTorch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOG TAB -->
+    <div class="tab-panel" id="panel-blog" role="tabpanel">
+      <div class="blog-posts" id="blog-posts">
+        <p class="loading-text">Loading posts from Substack...</p>
+      </div>
+      <p class="slow-fallback" id="blog-slow">taking too long? <a href="https://namitalearns.substack.com" target="_blank" rel="noopener">read on Substack</a></p>
+      <a href="https://namitalearns.substack.com" target="_blank" rel="noopener" class="substack-link">
+        read more on substack →
+      </a>
+    </div>
+
+    <!-- NOTES TAB -->
+    <div class="tab-panel" id="panel-notes" role="tabpanel">
+      <div class="notes-grid" id="notes-grid">
+        <p class="loading-text">Loading notes...</p>
+      </div>
+      <p class="slow-fallback" id="notes-slow">taking too long? <a href="https://github.com/namita-ach/NamitaWrites" target="_blank" rel="noopener">view on GitHub</a></p>
+    </div>
+
+    <!-- SKILLS TAB -->
+    <div class="tab-panel" id="panel-skills" role="tabpanel">
+      <div class="skills-columns">
+        <div class="skills-col">
+          <div class="skill-row">
+            <span class="skill-label">Languages</span>
+            <span class="skill-value">Python · C · SQL · R · Go</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">ML / DL</span>
+            <span class="skill-value">PyTorch · TensorFlow · Scikit-Learn · OpenCV</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Databases</span>
+            <span class="skill-value">MySQL · MongoDB · Couchbase · FAISS · Weaviate · Milvus</span>
+          </div>
+        </div>
+        <div class="skills-col">
+          <div class="skill-row">
+            <span class="skill-label">Backend</span>
+            <span class="skill-value">Go · Bazel · REST APIs</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Big Data</span>
+            <span class="skill-value">Hadoop · Hive · Kafka · Spark · Pig · Flume</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Infra</span>
+            <span class="skill-value">ONNX · Triton Inference Server · Open vSwitch</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Specialized</span>
+            <span class="skill-value">Vector DB Optimization · Model Compression · Quantization · Neuromorphic Computing · Edge Deployment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEYOND WORK TAB -->
+    <div class="tab-panel" id="panel-beyond" role="tabpanel">
+      <div class="beyond-content">
+        <div class="beyond-section">
+          <h3 class="beyond-heading">interests</h3>
+          <p>I cook a lot. I love bees (and all other insects too, no bias), and I like knowing their scientific names. I spend a surprising amount of time on Proto-Indo-European roots and how languages evolved from them. I practice yoga and care about where it actually comes from. We adopted our dog Max six years ago and he still runs the house.</p>
+        </div>
+        <div class="beyond-section">
+          <h3 class="beyond-heading">currently reading</h3>
+          <p><em>Understanding Natural Language Understanding</em> by Erik Cambria<br>
+          <em>The Book of Nothing</em> by John D. Barrow</p>
+        </div>
+        <div class="beyond-section">
+          <h3 class="beyond-heading">favorite books</h3>
+          <p><em>The Brain That Changes Itself</em> and <em>Phantoms in the Brain</em> if you want to understand why I'm like this.<br>
+          <em>A Court of Thorns and Roses</em> and <em>The Love Hypothesis</em> if you don't.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="footer-content">
+      <p class="footer-text">reach out</p>
+      <div class="footer-links">
+        <a href="mailto:namitaachyuthan@gmail.com">email</a>
+        <a href="https://github.com/namita-ach">github</a>
+        <a href="https://www.linkedin.com/in/namita-achyuthan">linkedin</a>
+        <a href="https://namitalearns.substack.com">substack</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Namita Achyuthan</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
